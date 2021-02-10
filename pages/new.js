@@ -10,7 +10,7 @@ import {
     grid,
 } from '../styles/newpage.module.scss';
 
-function Home() {
+function New() {
     return (
         <>
             <Head>
@@ -43,4 +43,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default New;
