@@ -3,7 +3,7 @@ import Card from '../components/card';
 import Footer from '../components/footer';
 import Header from '../components/header';
 
-import { main, grid } from '../styles/new.module.scss';
+import { main, grid } from '../styles/index.module.scss';
 
 function New() {
     return (
