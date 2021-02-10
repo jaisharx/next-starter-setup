@@ -1,6 +1,7 @@
 import NextHead from '../components/next-head';
 import Card from '../components/card';
 import Footer from '../components/footer';
+import CodeBlock from '../components/code-block';
 
 import {
     title,
@@ -22,7 +23,7 @@ function New() {
 
                 <p className={description}>
                     Get started by editing{' '}
-                    <code className={code}>pages/index.js</code>
+                    <CodeBlock>pages/index.js</CodeBlock>
                 </p>
 
                 {/* cards */}
