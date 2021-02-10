@@ -4,10 +4,10 @@ import Footer from '../components/footer';
 
 import {
     title,
-    description,
     code,
     main,
     grid,
+    description,
 } from '../styles/newpage.module.scss';
 
 function New() {
@@ -30,15 +30,26 @@ function New() {
 
                 {/* cards */}
                 <div className={grid}>
-                    <Card title="Documentation &rarr;" text="Find in-depth information about Next.js features and API." />
-                    <Card title="Learn &rarr;" text="Learn about Next.js in an interactive course with quizzes!" />
-                    <Card title="Examples &rarr;" text="Discover and deploy boilerplate example Next.js projects." />
-                    <Card title="Deploy &rarr;" text="Instantly deploy your Next.js site to a public URL with Vercel." />
+                    <Card
+                        title="Documentation &rarr;"
+                        text="Find in-depth information about Next.js features and API."
+                    />
+                    <Card
+                        title="Learn &rarr;"
+                        text="Learn about Next.js in an interactive course with quizzes!"
+                    />
+                    <Card
+                        title="Examples &rarr;"
+                        text="Discover and deploy boilerplate example Next.js projects."
+                    />
+                    <Card
+                        title="Deploy &rarr;"
+                        text="Instantly deploy your Next.js site to a public URL with Vercel."
+                    />
                 </div>
             </main>
 
             <Footer />
-
         </>
     );
 }
