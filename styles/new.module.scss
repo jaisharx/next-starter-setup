@@ -1,6 +1,6 @@
 .main {
-    padding: 12rem 0;
-    flex: 1;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,37 +8,9 @@
 }
 
 .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
     max-width: 80rem;
     margin-top: 3.4rem;
-}
-
-.title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 6rem;
-
-    a {
-        color: #0070f3;
-        text-decoration: none;
-    }
-
-    a:hover,
-    a:focus,
-    a:active {
-        text-decoration: underline;
-    }
-}
-
-.title,
-.description {
-    text-align: center;
-}
-
-.description {
-    line-height: 1.5;
-    font-size: 2rem;
 }

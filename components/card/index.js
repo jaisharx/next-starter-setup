@@ -1,14 +1,10 @@
 import { card, header, text, active } from './styles.module.scss';
-import cx from 'classnames';
 
-function Card({ title, content, isActive }) {
+function Card({ title, url, children }) {
     return (
-        <a
-            href="https://nextjs.org/docs"
-            className={cx(card, { [active]: isActive })}
-        >
-            <h3 className={header}>{title}</h3>
-            <p className={text}>{content}</p>
+        <a href={url} className={card}>
+            <h3>{title}</h3>
+            <p>{children}</p>
         </a>
     );
 }
