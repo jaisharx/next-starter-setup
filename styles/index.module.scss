@@ -1,5 +1,5 @@
 .main {
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -13,4 +13,10 @@
 
     max-width: 80rem;
     margin-top: 3.4rem;
+
+    @media (max-width: 40rem) {
+        // display: flex;
+        // flex-direction: column;
+        grid-template-columns: 1fr;
+    }
 }
