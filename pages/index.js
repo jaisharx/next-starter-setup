@@ -5,7 +5,7 @@ import Header from '../components/header';
 
 import { main, grid } from '../styles/index.module.scss';
 
-function New() {
+function Index() {
     return (
         <>
             <NextHead title="Create Next App" />
@@ -35,4 +35,4 @@ function New() {
     );
 }
 
-export default New;
+export default Index;
