@@ -1,10 +1,11 @@
-import { card } from './styles.module.scss';
+import { card, header, text } from './styles.module.scss';
+// import cx from 'classnames';
 
-function Card({ title, text }) {
+function Card({ title, content }) {
     return (
         <a href="https://nextjs.org/docs" className={card}>
-            <h3>{title}</h3>
-            <p>{text}</p>
+            <h3 className={header}>{title}</h3>
+            <p className={text}>{content}</p>
         </a>
     );
 }

@@ -29,19 +29,19 @@ function New() {
                 <div className={grid}>
                     <Card
                         title="Documentation &rarr;"
-                        text="Find in-depth information about Next.js features and API."
+                        content="Find in-depth information about Next.js features and API."
                     />
                     <Card
                         title="Learn &rarr;"
-                        text="Learn about Next.js in an interactive course with quizzes!"
+                        content="Learn about Next.js in an interactive course with quizzes!"
                     />
                     <Card
                         title="Examples &rarr;"
-                        text="Discover and deploy boilerplate example Next.js projects."
+                        content="Discover and deploy boilerplate example Next.js projects."
                     />
                     <Card
                         title="Deploy &rarr;"
-                        text="Instantly deploy your Next.js site to a public URL with Vercel."
+                        content="Instantly deploy your Next.js site to a public URL with Vercel."
                     />
                 </div>
             </main>
