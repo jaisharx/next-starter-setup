@@ -8,7 +8,7 @@ import {
     main,
     grid,
     description,
-} from '../styles/newpage.module.scss';
+} from '../styles/new.module.scss';
 
 function New() {
     return (
