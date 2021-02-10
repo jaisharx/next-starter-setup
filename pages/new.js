@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import NextHead from '../components/next-head';
 import Card from '../components/card';
 import Footer from '../components/footer';
 
@@ -13,10 +13,7 @@ import {
 function New() {
     return (
         <>
-            <Head>
-                <title>New - Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+            <NextHead title="Create Next App"/>
 
             <main className={main}>
                 <h1 className={title}>
