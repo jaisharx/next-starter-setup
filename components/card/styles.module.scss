@@ -1,5 +1,6 @@
 .card {
-    margin: 1.6rem;
+    cursor: pointer;
+    margin: 1.2rem;
     flex-basis: 45%;
     padding: 1.8rem;
     text-align: left;
@@ -15,7 +16,7 @@
         color: #0070f3;
         border-color: #0070f3;
 
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     h3 {
