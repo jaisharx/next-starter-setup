@@ -6,4 +6,8 @@
     font-size: 1.4rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+
+    &.highlight {
+        background-color: yellow;
+    }
 }

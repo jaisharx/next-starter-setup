@@ -1,7 +1,8 @@
-import { code } from './styles.module.scss';
+import { code, highlight } from './styles.module.scss';
+import cx from 'classnames';
 
 function CodeBlock({ children }) {
-    return <code className={code}>{children}</code>;
+    return <code className={cx(code, highlight)}>{children}</code>;
 }
 
 export default CodeBlock;
