@@ -15,16 +15,16 @@ function New() {
 
                 {/* cards */}
                 <div className={grid}>
-                    <Card title="Documentation &rarr;">
+                    <Card title="Documentation">
                         Find in-depth information about Next.js features and API.
                     </Card>
-                    <Card title="Learn &rarr;">
+                    <Card title="Learn">
                         Learn about Next.js in an interactive course with quizzes!
                     </Card>
-                    <Card title="Examples &rarr;">
+                    <Card title="Examples">
                         Discover and deploy boilerplate example Next.js projects.
                     </Card>
-                    <Card title="Deploy &rarr;">
+                    <Card title="Deploy">
                         Instantly deploy your Next.js site to a public URL with Vercel.
                     </Card>
                 </div>
