@@ -8,7 +8,7 @@ import { main, grid } from '../styles/index.module.scss';
 function Index() {
     return (
         <>
-            <NextHead title="Create Next App" />
+            <NextHead title="Next Starter Setup - Zero Config required." />
 
             <main className={main}>
                 <Header />
