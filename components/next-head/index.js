@@ -5,10 +5,10 @@ function NextHead({ title }) {
         <Head>
             <title>{title}</title>
 
-            <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" />
-            <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png" />
-            <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png" />
-            <link rel="manifest" href="/public/favicon/site.webmanifest"></link>
+            <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+            <link rel="manifest" href="/favicon/site.webmanifest"></link>
 
             <meta name="title" content={title} />
             <meta
@@ -24,7 +24,7 @@ function NextHead({ title }) {
                 property="og:description"
                 content="With the next starter setup, you can start building next based projects as quick as in a second. Just git clone the repo, and get building your next multi-million app."
             />
-            <meta property="og:image" content="/public/assets/big.png" />
+            <meta property="og:image" content="/assets/big.png" />
 
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
@@ -34,7 +34,7 @@ function NextHead({ title }) {
                 property="twitter:description"
                 content="With the next starter setup, you can start building next based projects as quick as in a second. Just git clone the repo, and get building your next multi-million app."
             />
-            <meta property="twitter:image" content="/public/assets/big.png" />
+            <meta property="twitter:image" content="/assets/big.png" />
         </Head>
     );
 }
